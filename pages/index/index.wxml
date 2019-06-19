@@ -1,1 +1,5 @@
-<view class="title">hello world!</view>
+<view class="weather-wrapper">
+  <view class="title">{{nowTemp}}</view>
+  <view class='tqms'>{{nowWeather}}</view>
+  <image class="weather-bg" src="{{weatherBg}}" mode="scaleToFill"></image>
+</view>
